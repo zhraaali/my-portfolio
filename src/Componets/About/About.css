@@ -1,0 +1,83 @@
+/* the main About */
+.About {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+/* About-left */
+.work-left {
+  margin-bottom: 40px;
+  max-width: 100%;
+
+}
+
+.awesome {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+
+.awesome span {
+  color: var(--black);
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.awesome> :nth-child(2) {
+  color: var(--orange);
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.awesome p {
+  color: var(--gray);
+  font-size: 18px;
+  margin-top: 1rem;
+  max-width: 100%;
+}
+
+.s-button {
+  width: 10rem;
+  height: 3rem;
+  margin-top: 1rem;
+}
+
+/* BTN */
+.work-button {
+  margin-top: 1rem;
+}
+
+/* imgs for about me  */
+.img-work img {
+  position: relative;
+  width: 490px;
+  max-width: 100%;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+/* media for responsive */
+@media ((max-width: 1100px)) {
+  .About {
+    margin-left: 8%;
+    margin-right: 8%;
+    gap: 10px;
+  }
+
+  .img-work {
+    width: 40%;
+  }
+}
+
+@media(min-width:1300px) {
+  .About {
+    margin-left: 6%;
+    margin-right: 6%;
+
+
+  }
+}

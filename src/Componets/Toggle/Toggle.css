@@ -1,0 +1,37 @@
+.toggle{
+    display: flex;
+    justify-content:space-between;
+    border: 3px solid var(--orange);
+    border-radius: 1rem;
+    position: relative;
+    padding: 4px;
+    cursor: pointer;
+width: 4rem;
+}
+.toggle>*{
+    width: 1.2rem;
+    height: 1.2rem;
+    color: var(--orange);
+  
+}
+.toggel-button{
+    border-radius: 100%;
+    background: var(--orange);
+    position: absolute;
+}
+@media(max-width:992px){
+    .toggle>*{
+        
+        color: white;
+    }
+    
+    .toggle{
+        border:1px solid white;
+    }
+    .toggel-button{
+        border-radius: 100%;
+        background: white;
+        position: absolute;
+    }
+   
+}

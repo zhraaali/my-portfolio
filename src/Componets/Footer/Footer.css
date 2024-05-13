@@ -1,0 +1,94 @@
+/* start footer */
+footer {
+  transition: all 0.5s;
+  padding: 2rem 3rem;
+  background-color: var(--orange);
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+}
+
+footer .main-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+}
+
+footer .foot {
+  padding: 20px;
+  max-width: 100%;
+}
+
+footer .foot h2 {
+  transition: all 0.5s;
+  margin-bottom: 15px;
+  text-align: center;
+  letter-spacing: 1.8;
+  text-shadow: 2px 2px 5px #dddeee;
+}
+footer .foot3 a span{
+  max-width: 100%;
+  
+}
+
+@media(max-width:992px){
+  footer .foot3 a span{
+    font-size: 15px;
+  }
+}
+.foot h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  transition: all 0.5s;
+  letter-spacing: 1.8;
+  text-shadow: 2px 2px 5px #dddeee;
+}
+
+footer .foot p {
+  margin-bottom: 15px;
+  font-size: 18px;
+  letter-spacing: 1.5;
+}
+
+footer .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  transition: all 0.8s;
+}
+
+/* style the icon */
+footer .social-media {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  transition: 0.8s;
+}
+
+footer .social-media:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+footer .social-media a {
+  font-size: 20px;
+  color: #fff;
+}
+
+footer .social-media a:hover {
+  color: black
+}
+
+footer h1:hover,
+:hover,
+p:hover {
+  color: #000;
+}

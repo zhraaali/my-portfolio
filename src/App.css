@@ -1,0 +1,66 @@
+:root
+{
+  --yellow: #F5C32C;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 9px 9px 4px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 21px 30px rgba(0, 0, 0, 0.08);
+}
+
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--black);   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    overflow-x: hidden;
+    color:crimson ;
+    font-family: "Inter", sans-serif;
+}
+
+.button {
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow:1px 2px 28px -2px rgba(251, 161, 40, 0.42);
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+    transition: 0.7s ease-in-out;
+  }
+  
+  .button:hover {
+    background: white;
+    cursor: pointer;
+    border: 1px solid var(--orange);
+    color: var(--orange);
+    transition: 0.7s ease-in-out;
+  }
+  @media screen and (max-width: 480px) {
+    .App {
+      padding: 0.5rem 1rem;
+
+    }
+  }
+
+  .section-title-01{
+    font-size: 4em;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  background-color: rgb(128, 128, 128);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.1;
+  }
+  .section-title-02 {
+    font-size: 2.5em;
+    font-weight: 700;
+    transform: translateY(-78px);
+    color: var(--black);
+    
+  }
