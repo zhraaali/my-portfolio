@@ -1,7 +1,7 @@
 import './Certificates.css'
 import img1 from "../../assets/imgs/photo_2024-04-01_13-24-49.jpg"
 import img3 from "../../assets/imgs/photo.png"
-// import img4 from "../../assets/imgs/44.jpg"
+import img4 from "../../assets/imgs/mad-solution-Certificate.png"
 
 // import img6 from "../../assets/imgs/66.jpg"
 // import img7 from "../../assets/imgs/77.jpg"
@@ -30,6 +30,9 @@ const Certificates = () => {
                 </div>
                 <div className="imgs mb-2">
                     <img src={img3} alt="" />
+                </div>
+                <div className="imgs mb-2">
+                    <img src={img4} alt="" />
                 </div>
                 {/* <div className="imgs mb-2">
                     <img src={img4} alt="" />

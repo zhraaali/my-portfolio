@@ -2,12 +2,12 @@
 import img1 from "../../assets/imgs/quiz website.png"
 // import img2 from "../../assets/imgs/2.png"
 // import img3 from "../../assets/imgs/3.png"
-import img4 from "../../assets/imgs/education website.png"
+import img4 from "../../assets/imgs/TODOLIST.png"
 // import img5 from "../../assets/imgs/5.png"
 // import img6 from "../../assets/imgs/6.png"
 // import img7 from "../../assets/imgs/7.png"
 // import img8 from "../../assets/imgs/8.png"
-import img9 from "../../assets/imgs/mobile website.png"
+import img9 from "../../assets/imgs/food.png"
 import { GoArrowUpRight } from "react-icons/go";
 
 
@@ -50,13 +50,13 @@ const Portfolio = () => {
         <div className="projects shadow-lg transition-transform">
           <img src={img9} alt="" />
           <div className="overlay">
-            <div class="text">Phone</div>
+            <div class="text">FOOD</div>
           </div>
           <div className="information  mt-4 pl-1">
-            <h2 style={{ color: darkMode ? "white" : "" }} >Phone</h2>
+            <h2 style={{ color: darkMode ? "white" : "" }} >FOOD</h2>
             <div className="arrow-content flex gap-4">
               <span> Show Website</span>
-              <a href="https://zhraaali.github.io/task-5-2/" target="_blank">
+              <a href="https://food-fawn-xi.vercel.app/" target="_blank">
                 <GoArrowUpRight className="arrow animate-bounce" />
               </a>
             </div>
@@ -66,13 +66,13 @@ const Portfolio = () => {
         <div className="projects shadow-lg transition-transform">
           <img src={img4} alt="" />
           <div className="overlay">
-            <div class="text">Education</div>
+            <div class="text">TodoList</div>
           </div>
           <div className="information  mt-4 pl-1">
-            <h2 style={{ color: darkMode ? "white" : "" }}>Education</h2>
+            <h2 style={{ color: darkMode ? "white" : "" }}>TodoList</h2>
             <div className="arrow-content flex gap-4">
               <span> Show Website</span>
-              <a href="https://zhraaali.github.io/task_4-2/" target="_blank">
+              <a href="https://todo-list-ivory-zeta-98.vercel.app/" target="_blank">
                 <GoArrowUpRight className="arrow animate-bounce" />
               </a>
             </div>

@@ -1,5 +1,5 @@
 import './About.css'
-import zhraacv from './Zhraa-Ali-old-CV.pdf'
+import zhraacv from './Science and Engineering Resume in Green Black Simple Style.pdf'
 import img1 from "../../assets/imgs/herr1.png"
 import { easeOut, motion } from "framer-motion";
 import { useContext } from 'react';
@@ -28,9 +28,10 @@ const About = () => {
                         I am Zhraa Ali
                         </span>
                         <span className='mt-2'>Front end Developer</span>
-                        <p className='mt-2 mb-2 w-[500px]' style={{ color: darkMode ? "white" : "" }}>
-                        My name is Zahraa Mohamed Ali. I am studying Computer Engineering with a specialization in Software Engineering. Currently,
-                         I am working as an intern at Mad Solution as a Frontend Developer and also interning at Vica Web Solution as a Frontend Developer.
+                        <p className='mt-2 mb-2 w-[500px]' style={{ color: darkMode ? "white" : "" }}> 
+                            My name is Zahraa Mohamed Ali. I am studying Computer Engineering with a specialization in Software Engineering.
+                            I've had the opportunity to intern as a Frontend Developer at Focal X Agency and Mad-Solution. Currently, 
+                            I am interning at Focal X Agency as a Backend Django Developer.
                         </p>
                         <a href={zhraacv} download>
                             <button className="button s-button">Download CV</button>

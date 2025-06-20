@@ -12,6 +12,8 @@ import { themeContext } from "./Context";
 import Talk from './Componets/Talk/Talk';
 import About from './Componets/About/About';
 import NavBar from './Componets/NavBar/NavBar';
+import Test2 from './Componets/Test2/Test2';
+
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -21,6 +23,7 @@ function App() {
         background: darkMode ? "black" : "",
         color: darkMode ? "white" : "",
       }}>
+  <Test2/>
         
     <NavBar /> 
    <Hero />
@@ -29,7 +32,6 @@ function App() {
   <Exp />
   <Skills />
   <Certificates />
-  {/* <Talk /> */}
   <ContactUs />
   <Footer />
     </div>

@@ -63,7 +63,7 @@ const Hero = () => {
           }}
           className="description"
           style={{ color: darkMode ? "white" : "" }}>
-          I'm a front-end developer with 1 years of experience using React
+          I'm a front-end developer with 2 years of experience using React
           . Reach out if you'd like to learn more!
         </motion.p>
         {/* <motion.button
