@@ -12,12 +12,12 @@ const Exp = () => {
 <div className="Exprencies">
       <div className='Exp'>
         <div className="exp-content">
-          <div className="circle" style={{ color: darkMode ? "black" : "" ,backgroundColor: darkMode ? "  #87e6fb": ""}}><strong>+1</strong></div>
+          <div className="circle" style={{ color: darkMode ? "black" : "" ,backgroundColor: darkMode ? "  #87e6fb": ""}}><strong>+2</strong></div>
           <span className='circle-1' style={{ color: darkMode ? "white" : "" }}>Years</span>
           <p className='circle-2' >Exprinice</p>
         </div>
         <div className="exp-content">
-          <div className="circle" style={{ color: darkMode ? "black" : "" ,backgroundColor: darkMode ? "  #87e6fb": ""}}><strong>+4</strong></div>
+          <div className="circle" style={{ color: darkMode ? "black" : "" ,backgroundColor: darkMode ? "  #87e6fb": ""}}><strong>+3</strong></div>
           <span className='circle-1' style={{ color: darkMode ? "white" : "" }}>completed</span>
           <p className='circle-2 '>Projects</p>
         </div>
