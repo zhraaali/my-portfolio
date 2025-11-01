@@ -1,5 +1,5 @@
 import './About.css'
-import zhraacv from './Science and Engineering Resume in Green Black Simple Style.pdf'
+import zhraacv from '../../assets/imgs/ZhraaCv.pdf'
 import img1 from "../../assets/imgs/herr1.png"
 import { easeOut, motion } from "framer-motion";
 import { useContext } from 'react';

@@ -9,8 +9,8 @@ import img4 from "../../assets/imgs/TODOLIST.png"
 // import img8 from "../../assets/imgs/8.png"
 import img9 from "../../assets/imgs/food.png"
 import { GoArrowUpRight } from "react-icons/go";
-
-
+import shopImg from '../../assets/imgs/eShop.png'
+import russiaImg from '../../assets/imgs/russia.png'
 import './Portfolio.css'
 import { useContext } from "react"
 import { themeContext } from "../../Context"
@@ -62,6 +62,39 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
+        {/* e-shop */}
+        <div className="projects shadow-lg transition-transform">
+          <img src={shopImg} alt="" />
+          <div className="overlay">
+            <div class="text">e-Shop</div>
+          </div>
+          <div className="information  mt-4 pl-1">
+            <h2 style={{ color: darkMode ? "white" : "" }} >e-Shop</h2>
+            <div className="arrow-content flex gap-4">
+              <span> Show Website</span>
+              <a href="https://e-shop-eight-flame.vercel.app/" target="_blank">
+                <GoArrowUpRight className="arrow animate-bounce" />
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* russia */}
+        <div className="projects shadow-lg transition-transform">
+          <img src={russiaImg} alt="" />
+          <div className="overlay">
+            <div class="text">Russia & Golf</div>
+          </div>
+          <div className="information  mt-4 pl-1">
+            <h2 style={{ color: darkMode ? "white" : "" }} >Russia & Golf</h2>
+            <div className="arrow-content flex gap-4">
+              <span> Show Website</span>
+              <a href="https://russia-gulf.vercel.app/" target="_blank">
+                <GoArrowUpRight className="arrow animate-bounce" />
+              </a>
+            </div>
+          </div>
+        </div>
+
         {/* projects div */}
         <div className="projects shadow-lg transition-transform">
           <img src={img4} alt="" />
