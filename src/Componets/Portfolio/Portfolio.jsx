@@ -8,6 +8,7 @@ import img4 from "../../assets/imgs/TODOLIST.png"
 // import img7 from "../../assets/imgs/7.png"
 // import img8 from "../../assets/imgs/8.png"
 import img9 from "../../assets/imgs/food.png"
+import TaskImg from '../../assets/imgs/task.png'
 import { GoArrowUpRight } from "react-icons/go";
 import shopImg from '../../assets/imgs/eShop.png'
 import russiaImg from '../../assets/imgs/russia.png'
@@ -40,7 +41,7 @@ const Portfolio = () => {
             <h2 style={{ color: darkMode ? "white" : "" }}>Quizzes website</h2>
             <div className="arrow-content flex gap-4">
               <span> Show Website</span>
-              <a href="https://robquiz.com" target="_blank">
+              <a href="https://robquiz.com/en" target="_blank">
                 <GoArrowUpRight className="arrow animate-bounce" />
               </a>
             </div>
@@ -57,6 +58,22 @@ const Portfolio = () => {
             <div className="arrow-content flex gap-4">
               <span> Show Website</span>
               <a href="https://food-fawn-xi.vercel.app/" target="_blank">
+                <GoArrowUpRight className="arrow animate-bounce" />
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* projects div */}
+        <div className="projects shadow-lg transition-transform">
+          <img src={TaskImg} alt="" />
+          <div className="overlay">
+            <div class="text">Task Management</div>
+          </div>
+          <div className="information  mt-4 pl-1">
+            <h2 style={{ color: darkMode ? "white" : "" }} >Task Management</h2>
+            <div className="arrow-content flex gap-4">
+              <span> Show Website</span>
+              <a href="https://task-management-six-khaki.vercel.app/" target="_blank">
                 <GoArrowUpRight className="arrow animate-bounce" />
               </a>
             </div>
