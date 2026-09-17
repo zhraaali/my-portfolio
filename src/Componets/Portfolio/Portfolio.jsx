@@ -16,6 +16,7 @@ import './Portfolio.css'
 import { useContext } from "react"
 import { themeContext } from "../../Context"
 import { easeOut, motion } from "framer-motion";
+import { Link } from "react-router-dom";
 const Portfolio = () => {
   /* dark mood */
   const theme = useContext(themeContext);
@@ -33,20 +34,28 @@ const Portfolio = () => {
         className='project-portfolio flex justify-center items-center'>
         {/* projects div */}
         <div className="projects shadow-lg transition-transform">
+        <a href="https://robquiz.com/ar" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', color:'inherit', display:'block'}}>
           <img src={img1} alt="" />
           <div className="overlay">
             <div class="text">Quizzes website</div>
           </div>
+
           <div className="information  mt-4 pl-1">
+
             <h2 style={{ color: darkMode ? "white" : "" }}>Quizzes website</h2>
             <div className="arrow-content flex gap-4">
               <span> Show Website</span>
-              <a href="https://robquiz.com/en" target="_blank">
-                <GoArrowUpRight className="arrow animate-bounce" />
-              </a>
+          {/* <a href="https://robquiz.com/ar" target="_blank"> */}
+          <GoArrowUpRight className="arrow animate-bounce" />
+
+          {/* </a> */}
+
             </div>
+
           </div>
+        </a>
         </div>
+
         {/* projects div */}
         <div className="projects shadow-lg transition-transform">
           <img src={img9} alt="" />

@@ -110,3 +110,9 @@
 
   border-radius: 60%;
 }
+
+
+
+.projects .overlay {
+  pointer-events: none; /* يسمح للضغط بالمرور من خلال الـ overlay إلى الرابط تحته */
+}
