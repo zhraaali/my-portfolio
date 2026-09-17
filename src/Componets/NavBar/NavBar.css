@@ -24,6 +24,9 @@
     font-style: italic;
 }
 @media(max-width:1050px){
+  .toggle{
+    border: none;
+  }
   .logo {
     width: 51%;
   }
@@ -41,6 +44,8 @@
 .nav-items ul {
   display: flex;
   transition: 0.6s ease-in;
+  position: relative;
+  top: 7%;
 }
 .nav-items ul a {
   margin-right: 2.19rem;
@@ -81,6 +86,8 @@ button img {
   cursor: pointer;
   display: none;
   margin-right: 0.5rem;
+  position: relative;
+  z-index: 8;
 
 }
 
